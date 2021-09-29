@@ -1,18 +1,30 @@
-
 {
-  "name": "react-native-react-native-smooth-blink-view",
+  "name": "react-native-smooth-blink-view",
   "version": "1.0.0",
-  "description": "",
+  "description": "<!--\r  * @email: quocvietdang97@gmail.com\r -->",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
-    "react-native"
+    "react-native",
+    "react-native-blink-smooth-view",
+    "react-native-blink-view",
+    "blink"
   ],
-  "author": "",
-  "license": "",
+  "author": "vietdq <quocvietdang97@gmail.com>",
+  "license": "ISC",
   "peerDependencies": {
-    "react-native": "0.63.3",
-    "prop-types": "15.7.2"
+    "prop-types": "15.7.2",
+    "react-native": "0.63.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viet97/react-native-smooth-blink-view.git"
+  },
+  "bugs": {
+    "url": "https://github.com/viet97/react-native-smooth-blink-view/issues"
+  },
+  "homepage": "https://github.com/viet97/react-native-smooth-blink-view#readme",
+  "dependencies": {
+    "react-native-smooth-blink-view": "^1.0.0"
   }
 }
