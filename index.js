@@ -9,12 +9,14 @@ const propsType = {
     delayInvisible: PropTypes.number,
     blinking: PropTypes.bool,
     duration: PropTypes.number,
+    containerStyle: PropTypes.object,
 };
 const defaultProps = {
     delayVisible: 300,
     delayInvisible: 0,
     blinking: true,
     duration: 500,
+    containerStyle:{}
 };
 
 export default class BlinkView extends PureComponent<propsType> {
@@ -52,13 +54,13 @@ export default class BlinkView extends PureComponent<propsType> {
     }
 
     render() {
-        const { children, blinking } = this.props;
+        const { children, blinking,containerStyle } = this.props;
         const style = {
             opacity: !blinking ? 1 : this.opacity,
         };
         return (
             <Animated.View
-                style={style}>
+                style={[style,containerStyle]}>
                 {children}
             </Animated.View>
         );
