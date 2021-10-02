@@ -31,4 +31,5 @@ yarn add react-native-smooth-blink-view
 | `duration` | Duration of blinking animated.  | number | `500`
 | `delayVisible` | Delay after component is visible.  | number | `300`
 | `delayInvisible` | Delay after component is hide.  | number | `0`
+| `containerStyle` | Container style.  | ViewStyle | `{}`
 
