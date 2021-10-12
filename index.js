@@ -19,7 +19,7 @@ const defaultProps = {
     containerStyle:{}
 };
 
-export default class BlinkView extends PureComponent<propsType> {
+export default class BlinkView extends PureComponent {
     constructor(props) {
         super(props);
         this.opacity = new Animated.Value(1);

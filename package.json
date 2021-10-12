@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "<!--\r  * @email: quocvietdang97@gmail.com\r -->",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {},
   "keywords": [
     "react-native",
@@ -23,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/viet97/react-native-smooth-blink-view/issues"
   },
-  "homepage": "https://github.com/viet97/react-native-smooth-blink-view#readme",
-  "dependencies": {
-    "react-native-smooth-blink-view": "^1.0.0"
-  }
+  "homepage": "https://github.com/viet97/react-native-smooth-blink-view#readme"
 }

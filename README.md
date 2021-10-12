@@ -8,13 +8,13 @@
 
 ## Installation
 
-```
+```bash
 yarn add react-native-smooth-blink-view
 ```
 
 ## Usage
 
-```
+```tsx
  <BlinkView 
     delayVisible={300}
     delayInvisible={0}
